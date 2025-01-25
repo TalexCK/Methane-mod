@@ -6,7 +6,7 @@
   "description": "Explosive optimisations for your favourite block game.",
   "authors": ["AnOpenSauceDev"],
   "contact": {
-    "issues": "https://github.com/AnOpenSauceDev/Methane-mod/issues"
+    "issues": "https://github.com/TalexCK/Methane-mod/issues"
   },
   "license": "MIT",
   "icon": "assets/methane/Methane-logo-Large.png",
@@ -30,8 +30,8 @@
   ],
   "depends": {
     "cloth-config": "*",
-    "fabricloader": ">=0.14.0",
-    "minecraft": ">=1.20.2"
+    "fabricloader": ">=0.16.10",
+    "minecraft": ">=1.21.4"
   },
   "suggests": {
     "methane_server": "*"
@@ -43,6 +43,6 @@
     "starlight": "*"
   },
   "contributors": [
-    "JustAlittleWolf","FITFC","craftish37","rebub","TheBossMagnus","ItsRedlyXD"
+    "JustAlittleWolf","FITFC","craftish37","rebub","TheBossMagnus","ItsRedlyXD","TalexCK"
   ]
 }
