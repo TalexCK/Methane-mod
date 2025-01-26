@@ -26,8 +26,6 @@ public class BackgroundRendererMixin {
         if (hasBlindOrDark(camera.getFocusedEntity())) return;
 
         if (shouldDisableFog(camera.getSubmersionType(), thickFog, fogType)) {
-            RenderSystem.setShaderFogStart(-8.0F);
-            RenderSystem.setShaderFogEnd(1_000_000.0F);
             ci.cancel();
         }
     }

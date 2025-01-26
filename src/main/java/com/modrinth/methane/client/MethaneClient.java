@@ -137,12 +137,10 @@ public class MethaneClient implements ClientModInitializer {
             if(Methane.ModActive)
             {
 
-                client.player.sendMessage(Text.translatable("methane.active"));
 
             }else
             {
 
-                client.player.sendMessage(Text.translatable("methane.offline"));
             }
         }
     }
